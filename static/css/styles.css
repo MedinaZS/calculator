@@ -1,0 +1,75 @@
+/*Reset Css*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+/* Calculator container*/
+#calculator{
+    background-color: #222222;
+    width: 200px;
+    padding: 20px;
+    margin: 10px auto;
+    color: white;
+    font-size: 2.5rem;
+    border-radius: 10px;
+}
+
+/* Result Field */
+#display{
+    text-align: right;
+    /*Para que solo sea una linea*/
+    white-space: nowrap;
+    /* Que cualquier texto no supere el tamaño y se convierta en ...*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*Rows*/
+.row{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Buttons*/
+button{
+    background-color: #666666;
+    color: white;
+    font-size: 1.8rem;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Cuando se hace click cambiar el color de fondo*/
+button:active{
+    background-color: #999999;
+}
+
+/*Operator buttons*/
+.operator{
+    background-color: #ff8c00 ;
+}
+
+/* Cuando se hace click cambiar el color de fondo*/
+.operator:active{
+    background-color: #ffa500;
+}
+
+/* Equals button*/
+#equals{
+    background-color: #cccccc;
+    width: 100%;
+    border-radius: 30px;
+    color: black;
+}
+
+/* Cuando se hace click cambiar el color de fondo*/
+#equals:active{
+    background-color: #eeeeee;
+}
+
